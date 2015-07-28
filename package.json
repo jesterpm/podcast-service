@@ -1,0 +1,16 @@
+{
+  "name": "podcast-service",
+  "version": "0.0.0",
+  "description": "Podcast Service provides a restful interface for managing a set of podcasts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1.40",
+    "dynamodb-doc": "^1.0.0",
+    "underscore": "^1.8.3"
+  }
+}
