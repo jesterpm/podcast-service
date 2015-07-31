@@ -4,13 +4,16 @@
   "description": "Podcast Service provides a restful interface for managing a set of podcasts.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --require sinon --require mockery --reporter spec --bail"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1.40",
     "dynamodb-doc": "^1.0.0",
+    "mocha": "^2.2.5",
+    "mockery": "^1.4.0",
+    "sinon": "^1.15.4",
     "underscore": "^1.8.3"
   }
 }
